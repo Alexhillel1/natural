@@ -581,3 +581,145 @@ body {
   background: #f4b02b;
   border-radius: 0px 5px 5px 0px;
 }
+
+.adventages {
+  padding-top: 65px;
+  padding-bottom: 74px;
+  background-image: url(../img/bg-adventages.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.adventages__title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 102.4%;
+  /* identical to box height, or 67px */
+
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 66px;
+}
+
+.adventages__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adventages__img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.11);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 84px;
+
+  width: 139px;
+  height: 139px;
+  margin-bottom: 21px;
+}
+
+.adventages__descr {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120.9%;
+  /* or 29px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #202020;
+}
+
+.footer {
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+
+.footer__nav-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.footer__logo {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+
+.footer__nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.footer__nav-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.footer__nav-item:first-child {
+  margin-bottom: 0;
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__bottom-police {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.33);
+}
+.footer__icon-list {
+  display: flex;
+}
+.footer__icon-item:not(:last-child) {
+  margin-right: 18px;
+}
+
+.subscribe__input-footer {
+  padding-right: 110px;
+}
+.subscribe__form-footer {
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.footer__form-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+
+.footer-bg {
+  padding-top: 120px;
+  background-color: #fafafa;
+}
+
+.footer-bg-img {
+  width: 100%;
+  display: block;
+}
