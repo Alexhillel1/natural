@@ -358,3 +358,201 @@ body {
 .intro__sale-box-p span {
   color: #f4b02b;
 }
+
+.our-products__inner-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 102.4%;
+  /* or 61px */
+
+  color: #1f271b;
+  margin-bottom: 50px;
+}
+
+.our__products {
+  padding-top: 112px;
+  padding-bottom: 200px;
+}
+.our__products-inner-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 102.4%;
+  /* or 61px */
+
+  color: #1f271b;
+  margin-bottom: 50px;
+}
+.our__products-list {
+  display: flex;
+}
+.our__products-item {
+  background-image: url(../img/ourproducts-card.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.our__products-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.our__products-item-box {
+  padding-top: 23px;
+  padding-right: 21px;
+  padding-left: 21px;
+  padding-bottom: 17px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.our__products-top {
+  width: 166px;
+  margin-bottom: 150px;
+}
+.our__products-top-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 102.4%;
+  /* or 26px */
+
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+.our__products-top-descr {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 102.4%;
+  /* or 12px */
+
+  color: #ffffff;
+}
+.our__products-top-descr-one {
+  margin-bottom: 8px;
+}
+.our__products-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our__product-bottom-cost {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.our__product-bottom-price {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 102.4%;
+  /* identical to box height, or 24px */
+
+  color: #ffffff;
+}
+
+.our__product-bottom-button {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background: #f4b02b;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 5px;
+  padding: 13px 23px;
+}
+
+.subscribe {
+}
+
+.subscribe__inner {
+  background-image: url(../img/sub-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  position: relative;
+}
+.subscribe-img-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.subscribe__info {
+  padding-top: 49px;
+  padding-left: 63px;
+}
+.subscribe__title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 102.4%;
+  /* identical to box height, or 82px */
+
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.subscribe__descr {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 102.4%;
+  /* or 18px */
+
+  color: #ffffff;
+  margin-bottom: 88px;
+  width: 436px;
+}
+.subscribe__form {
+  padding-left: 63px;
+  padding-bottom: 56px;
+  position: relative;
+}
+.subscribe__input {
+  padding-top: 26px;
+  padding-bottom: 25px;
+  padding-left: 28px;
+  padding-right: 169px;
+
+  background: rgba(255, 255, 255, 0.11);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 5px 0px 0px 5px;
+  color: #fff;
+}
+
+.subscribe__input::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 102.4%;
+  /* or 18px */
+
+  color: rgba(255, 255, 255, 0.26);
+}
+
+.subscribe__btn {
+  position: absolute;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 102.4%;
+  /* or 18px */
+
+  color: #ffffff;
+  padding: 26px 49px;
+
+  background: #f4b02b;
+  border-radius: 0px 5px 5px 0px;
+}
